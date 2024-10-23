@@ -1,0 +1,152 @@
+/* General Dashboard Styling */
+.dashboard {
+    background: linear-gradient(180deg, #a0c4ff, #bdb2ff, #ffc6ff);
+    min-height: 100vh;
+    padding: 20px;
+    position: relative;
+}
+
+.dashboard-header {
+    text-align: center;
+    color: white;
+}
+
+.settings-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #59585a;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.settings-button i {
+    font-size: 24px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #fefeff, #e5e3f3, #ffc6ff);
+}
+
+.sidebar-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.user-icon {
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+.close-sidebar {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    flex-grow: 1; /* Make the menu grow to fill the remaining space */
+    width: 100%; /* Ensure the menu takes up full width */
+}
+
+.sidebar-menu li {
+    background-color: #badff0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sidebar-menu li:hover {
+    background-color: #a1c3e0;
+}
+
+/* Camera Feed Section */
+.camera-feed {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.camera-placeholder {
+    width: 600px;
+    height: 330px;
+    background-color: #9a9da3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.camera-icon {
+    color: white;
+    font-size: 48px;
+}
+
+/* Posture Status Section */
+.posture-status {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.posture-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.indicator {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.good-posture {
+    background-color: green;
+}
+
+.bad-posture {
+    background-color: red;
+}
+
+.view-history-button {
+    margin-top: 15px;
+    background-color: #006eff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
